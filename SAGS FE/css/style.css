@@ -55,7 +55,9 @@
 	  background-size: cover;
 	}
 } */
-
+html {
+  scroll-behavior: smooth;
+}
 /* Main Menu */
 .navbar {
   background-color: #00000038 !important;
@@ -256,7 +258,10 @@
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-
+.container-fluid-2{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 /* .carousel-inner .active.left { left: -33%; }
 .carousel-inner .next        { left:  33%; }
 .carousel-inner .prev        { left: -33%; } */
@@ -330,4 +335,89 @@
 .privacy{
   text-decoration: underline;
   float: right;
+}
+/* Footer */
+.footer {
+  align-items: center;
+  background-color: #1c375d;
+}
+.footer-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#main-nav-2 {
+  justify-content: center;
+}
+.martop{
+  margin-top: 20px;
+}
+
+/* Ground Services */
+#textlink1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+}
+#textlink2{
+  color: #fff;
+  font-size: 22px;
+  margin-top: 15px;
+}
+a {
+  text-decoration: none !important;
+}
+.bg-grey{
+  background-color: #EFF1F4;
+}
+.column-img-element{
+  width: 407px;
+  height: 309px;
+}
+.img-1{
+  height: 100%;
+  width: 100%;
+}
+.container-fluid-3{
+  height: 450px;
+}
+.row-1{
+  height: 100%;
+}
+#textlink1{
+  font-weight: 700;
+  margin-left: 50px;
+}
+.textlink1{
+  margin-top: 100px;
+}
+.textlink2{
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: 700;
+}
+.img-column {
+  padding-top: 70px;
+}
+.p3{
+  color: #1B365D;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Back top Top Button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #1c375d; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 1px; /* Rounded corners */
+  border-color: 1px soild black;
+  font-size: 18px; /* Increase font size */
 }
