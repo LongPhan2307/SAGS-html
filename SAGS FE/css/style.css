@@ -1,3 +1,4 @@
+/* index.html */
 /* nav {
 	margin-bottom: 10px;
 }
@@ -116,9 +117,9 @@ html {
 
 /* Animation for Slide */
 #myCarouselControl .carousel-item {
-  -webkit-animation: thing 30s;
-  -o-animation: thing 30s;
-  animation: thing 30s;
+  -webkit-animation: thing 5s;
+  -o-animation: thing 5s;
+  animation: thing 5s;
 }
 @keyframes thing {
   from {
@@ -185,27 +186,27 @@ html {
 /* Mobile Slide */
 
 /* First Paragraph */
-.mt-10{
+.mt-10 {
   margin-top: 50px;
 }
-.title1{
+.title1 {
   font-weight: 900;
   color: #1c375d;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
-.title{
+.title {
   color: #1c375d;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-weight: 700;
 }
-.p1{
+.p1 {
   color: #1c375d;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-size: 24px;
 }
 
 /* Btn bg */
-.btn-bg{
+.btn-bg {
   background-color: #1c375d;
   color: #fff;
   font-size: 14px;
@@ -215,20 +216,20 @@ html {
 }
 
 /* Container Fluid */
-.bg-blue{
+.bg-blue {
   background-color: #1c375d;
 }
-.img{
+.img {
   width: 80%;
 }
 
 /* Ground Service */
-.h3{
+.h3 {
   font-weight: 900;
   color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 /* 
 .carousel-inner:before {
@@ -254,24 +255,24 @@ html {
   z-index: 2;
 } */
 
-.container-fluid-1{
+.container-fluid-1 {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-.container-fluid-2{
+.container-fluid-2 {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 /* .carousel-inner .active.left { left: -33%; }
 .carousel-inner .next        { left:  33%; }
 .carousel-inner .prev        { left: -33%; } */
-.img2{
+.img2 {
   filter: brightness(60%);
 }
-.footer-container{
+.footer-container {
   position: relative;
 }
-.caption{
+.caption {
   position: absolute;
   top: 40%;
   left: 5%;
@@ -280,59 +281,59 @@ html {
   font-size: 56px;
 }
 
-.flower{
+.flower {
   width: 20px;
   height: 20px;
   margin-top: -0.4rem;
   margin-right: 10px;
   line-height: 1.22;
 }
-.title-2{
-  display:inline-block;
+.title-2 {
+  display: inline-block;
   font-size: 1.5em;
   text-align: right;
   line-height: 1.22;
   color: #fff;
 }
-.mb-10{
+.mb-10 {
   margin-bottom: 10px;
 }
 .s1 {
   border-top: 3px solid #fff;
 }
-.col{
+.col {
   color: #fff;
 }
-.mb-5{
+.mb-5 {
   margin-bottom: 5px;
 }
-.info1{
+.info1 {
   font-size: 14px;
 }
-.info2{
+.info2 {
   padding-left: 80px;
   font-size: 14px;
 }
-.info3{
+.info3 {
   padding-left: 150px;
   font-size: 14px;
 }
-.row-logo img{
+.row-logo img {
   object-fit: contain;
 }
-.mar-top-10{
+.mar-top-10 {
   margin-top: 30px;
 }
-.logo-right{
+.logo-right {
   margin-left: auto;
 }
-.mt-11{
+.mt-11 {
   margin-top: 10px;
 }
-.s2{
+.s2 {
   border-top: 1px solid #1c375d;
 }
-.privacy{
+.privacy {
   text-decoration: underline;
   float: right;
 }
@@ -348,17 +349,17 @@ html {
 #main-nav-2 {
   justify-content: center;
 }
-.martop{
+.martop {
   margin-top: 20px;
 }
 
 /* Ground Services */
-#textlink1{
+#textlink1 {
   color: #fff;
   font-weight: 700;
   font-size: 36px;
 }
-#textlink2{
+#textlink2 {
   color: #fff;
   font-size: 22px;
   margin-top: 15px;
@@ -366,31 +367,31 @@ html {
 a {
   text-decoration: none !important;
 }
-.bg-grey{
-  background-color: #EFF1F4;
+.bg-grey {
+  background-color: #eff1f4;
 }
-.column-img-element{
+.column-img-element {
   width: 407px;
   height: 309px;
 }
-.img-1{
+.img-1 {
   height: 100%;
   width: 100%;
 }
-.container-fluid-3{
+.container-fluid-3 {
   height: 450px;
 }
-.row-1{
+.row-1 {
   height: 100%;
 }
-#textlink1{
+#textlink1 {
   font-weight: 700;
   margin-left: 50px;
 }
-.textlink1{
+.textlink1 {
   margin-top: 100px;
 }
-.textlink2{
+.textlink2 {
   margin-top: 30px;
   margin-left: 50px;
   font-weight: 700;
@@ -398,8 +399,8 @@ a {
 .img-column {
   padding-top: 70px;
 }
-.p3{
-  color: #1B365D;
+.p3 {
+  color: #1b365d;
   font-size: 14px;
   font-weight: 700;
 }
@@ -413,11 +414,51 @@ a {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #1c375d; /* Set a background color */
-  color: white; /* Text color */
+  background-color: white; /* Set a background color */
+  color: #1c375d; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 1px; /* Rounded corners */
-  border-color: 1px soild black;
+  border-color: 1px soild #1c375d;
   font-size: 18px; /* Increase font size */
 }
+/* Animation for Img */
+.img-1:hover {
+  -webkit-animation: thing 2s;
+  -o-animation: thing 2s;
+  animation: thing 2s;
+}
+@keyframes thing {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.05, 1.05);
+  }
+}
+
+/* Horizontal Scroll */
+
+/* index.html */
+
+/* about.html */
+
+/* about.html */
+
+/* airports&customers.html */
+/* airports&customers.html */
+
+/* ground Services */
+/* ground Services */
+
+/* careers.html */
+/* careers.html */
+
+/* media.html */
+/* media.html */
+
+/* investors.html */
+/* investors.html */
+
+/* contact.html */
+/* contact.html */
