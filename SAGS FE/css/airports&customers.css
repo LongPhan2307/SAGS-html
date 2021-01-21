@@ -1,0 +1,291 @@
+/* airports&customers.html */
+html {
+  scroll-behavior: smooth;
+}
+/* Main Menu */
+.navbar {
+  background-color: #00000038 !important;
+}
+.nav-item {
+  margin-left: 5px;
+}
+.main-active {
+  background-color: #1c375d;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Nav-link Hover */
+.nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background-color: #1c375d;
+  color: #fff;
+  font-weight: bold;
+}
+/* Nav-link Hover */
+
+/* Dropdown-item Hover */
+.dropdown-item {
+  color: #1c375d;
+}
+.dropdown-item:hover {
+  color: #fff !important;
+  background-color: #1c375d;
+}
+/* Dropdown-item Hover */
+
+/* Search Button */
+.btn-sags {
+  color: #fff;
+  background-color: #1c375d;
+}
+.btn-sags:hover {
+  background-color: #f9da03;
+  color: #fff;
+}
+/* Search Button */
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    background: #1c375d !important;
+    text-align: center;
+  }
+  .navbar {
+    background: #1c375d !important;
+    position: static !important;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+  }
+
+  .btn-sags {
+    background-color: #f9da03;
+    color: #fff;
+  }
+  .btn-sags:hover {
+    color: #fff;
+    background-color: #1c375d;
+  }
+}
+/* Mobile Slide */
+
+/* First Paragraph */
+.mt-10 {
+  margin-top: 50px;
+}
+.title1 {
+  font-weight: 900;
+  color: #1c375d;
+  letter-spacing: 0.2rem;
+}
+.title {
+  color: #1c375d;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+.p1 {
+  color: #1c375d;
+  letter-spacing: 0.1rem;
+  font-size: 24px;
+}
+
+/* Btn bg */
+.btn-bg {
+  background-color: #1c375d;
+  color: #fff;
+  font-size: 14px;
+  width: 136px;
+  height: 40px;
+  font-weight: 700;
+}
+
+/* Container Fluid */
+.bg-blue {
+  background-color: #1c375d;
+}
+.img {
+  width: 80%;
+}
+
+/* Ground Service */
+.h3 {
+  font-weight: 900;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  letter-spacing: 0.2rem;
+}
+
+.container-fluid-1 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.container-fluid-2 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+/* .carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; } */
+.img2 {
+  filter: brightness(60%);
+}
+.footer-container {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-weight: 700;
+  color: #fff;
+  font-size: 56px;
+}
+
+.flower {
+  width: 20px;
+  height: 20px;
+  margin-top: -0.4rem;
+  margin-right: 10px;
+  line-height: 1.22;
+}
+.title-2 {
+  display: inline-block;
+  font-size: 1.5em;
+  text-align: right;
+  line-height: 1.22;
+  color: #fff;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.s1 {
+  border-top: 3px solid #fff;
+}
+.col {
+  color: #fff;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.info1 {
+  font-size: 14px;
+}
+.info2 {
+  padding-left: 80px;
+  font-size: 14px;
+}
+.info3 {
+  padding-left: 150px;
+  font-size: 14px;
+}
+.row-logo img {
+  object-fit: contain;
+}
+.mar-top-10 {
+  margin-top: 30px;
+}
+.logo-right {
+  margin-left: auto;
+}
+.mt-11 {
+  margin-top: 10px;
+}
+.s2 {
+  border-top: 1px solid #1c375d;
+}
+.privacy {
+  text-decoration: underline;
+  float: right;
+}
+/* Footer */
+.footer {
+  align-items: center;
+  background-color: #1c375d;
+}
+.footer-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#main-nav-2 {
+  justify-content: center;
+}
+.martop {
+  margin-top: 20px;
+}
+
+/* Ground Services */
+#textlink1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+}
+#textlink2 {
+  color: #fff;
+  font-size: 22px;
+  margin-top: 15px;
+}
+a {
+  text-decoration: none !important;
+}
+.bg-grey {
+  background-color: #eff1f4;
+}
+.column-img-element {
+  width: 407px;
+  height: 309px;
+}
+.img-1 {
+  height: 100%;
+  width: 100%;
+}
+.container-fluid-3 {
+  height: 450px;
+}
+.row-1 {
+  height: 100%;
+}
+#textlink1 {
+  font-weight: 700;
+  margin-left: 50px;
+}
+.textlink1 {
+  margin-top: 100px;
+}
+.textlink2 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: 700;
+}
+.img-column {
+  padding-top: 70px;
+}
+.p3 {
+  color: #1b365d;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Back top Top Button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #1c375d; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 1px; /* Rounded corners */
+  border-color: 1px soild #1c375d;
+  font-size: 18px; /* Increase font size */
+}
+
+/* airports&customers.html */

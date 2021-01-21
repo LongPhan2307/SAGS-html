@@ -117,9 +117,9 @@ html {
 
 /* Animation for Slide */
 #myCarouselControl .carousel-item {
-  -webkit-animation: thing 5s;
-  -o-animation: thing 5s;
-  animation: thing 5s;
+  -webkit-animation: thing 10s;
+  -o-animation: thing 10s;
+  animation: thing 10s;
 }
 @keyframes thing {
   from {
@@ -441,24 +441,4 @@ a {
 
 /* index.html */
 
-/* about.html */
 
-/* about.html */
-
-/* airports&customers.html */
-/* airports&customers.html */
-
-/* ground Services */
-/* ground Services */
-
-/* careers.html */
-/* careers.html */
-
-/* media.html */
-/* media.html */
-
-/* investors.html */
-/* investors.html */
-
-/* contact.html */
-/* contact.html */
