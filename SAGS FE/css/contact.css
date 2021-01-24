@@ -288,3 +288,41 @@ a {
   font-size: 18px; /* Increase font size */
 }
 /* contact.html */
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-text {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 700;
+  top: 50%;
+  left: 15%;
+}
+
+.breadcrumb {
+  padding-left: 15%;
+  border-bottom: 8px solid grey;
+  background: white;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #142855;
+  font-family: 'FontAwesome';
+  content: "\25B6" !important; 
+  padding-top: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact-nav {
+  font-size: 18px;
+  color: #142855;
+}
+
+.contact-nav.active {
+  font-weight: 700;
+}
